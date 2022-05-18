@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .image-slider .swiper-button-prev::after {
   content: '';
-  background-image: url(img/slider/l.svg);
+  background-image: url(../img/slider/l.svg);
   background-size: cover;
   position: absolute;
   left: 90px;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .image-slider .swiper-button-next::after {
   content: '';
-  background-image: url(img/slider/r.svg);
+  background-image: url(../img/slider/r.svg);
   background-size: cover;
   position: absolute;
   right: 90px;
@@ -991,7 +991,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 66px;
     position: relative; }
   .footer__up-phone::before {
-    content: url(img/footer/phone.svg);
+    content: url(../img/footer/phone.svg);
     position: absolute;
     left: 20px;
     top: 5px; }
@@ -1008,7 +1008,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 66px;
     position: relative; }
   .footer__up-mail::before {
-    content: url(img/footer/mail.svg);
+    content: url(../img/footer/mail.svg);
     position: absolute;
     left: 20px;
     top: 5px; }
