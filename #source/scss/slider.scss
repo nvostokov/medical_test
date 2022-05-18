@@ -1,0 +1,113 @@
+.swiper {
+  position: relative;
+  margin-bottom: 85px;
+}
+.image-slider {
+      &__wrapper {
+      }
+      &__slide {
+      }
+      &__image {
+            text-align: center;
+            max-width: 1667px;
+      }
+      &__image img {
+            width: 100%;
+        }
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.swiper {
+  max-width: 1667px;
+  max-height: 40.4375rem;
+  &__object {
+        z-index: 10;
+        position: absolute;
+        left: 43.75rem;
+        top: 9.375rem;
+        max-width: 584px;     
+  }
+  &__title {
+        font-size: 1.75rem;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: 0px;
+        text-align: left;
+  }
+  &__subtitle {
+        font-size: 5.25rem;
+        font-weight: 700;
+        line-height: 6rem;
+        letter-spacing: 0px;
+        text-align: left;
+  }
+  &__txt {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.625rem;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 2.5rem;
+  }
+  &__button {
+        width: 17.75rem;
+        height: 4.625rem;
+        background-color: #B4141B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Asap',serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.4375;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
+  &__object a {
+        text-decoration: none;
+        color: white;
+  }
+  &__button:hover {
+        opacity: 0.8;
+  }
+}
+.swiper-button-prev, .swiper-button-next {
+    transition: all 0.5s;
+    
+}
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after  {
+  font-size: 0;
+}
+.image-slider .swiper-button-prev::after {
+  content:'';
+  background-image: url(/img/slider/l.svg);
+  background-size: cover;
+    position: absolute;
+    left: 90px;
+    top: 0;
+    width: 19px;
+    height: 35px;
+}
+.image-slider .swiper-button-next::after {
+  content:'';
+  background-image: url(/img/slider/r.svg);
+  background-size: cover;
+  position: absolute;
+  right: 90px;
+  top: 0;
+  width: 19px;
+  height: 35px;
+}
+.image-slider .swiper-button-prev:hover,
+.image-slider .swiper-button-next:hover {
+  opacity: 0.5;
+}

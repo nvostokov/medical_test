@@ -1,0 +1,115 @@
+.for__row {
+  margin-bottom: 228px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(auto, 576px) minmax(auto, 474px);
+      grid-template-columns: minmax(auto, 576px) minmax(auto, 474px);
+  -webkit-column-gap: 120px;
+          column-gap: 120px; }
+
+.for__left-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 9px; }
+
+.for__left-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 24px;
+  color: #9B9B9B; }
+
+.for__left-txt {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #595959; }
+
+.for__left-link, .for__left-link a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7D7D7D;
+  margin-bottom: 26px; }
+
+.for__right {
+  padding-left: 48px;
+  margin-right: 38px;
+  position: relative; }
+
+.for__right-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 46px; }
+
+.for__form {
+  max-width: 388px;
+  height: 53px;
+  border: 2px solid #E2E2E2;
+  margin-bottom: 2.3125rem; }
+
+.for__form:hover {
+  border: 2px solid #7D7D7D;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+.for__form input {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4A4A4A;
+  padding: 19px 0 0 13px; }
+
+.for__form-btn {
+  position: absolute;
+  right: 0;
+  width: 104px;
+  height: 35px;
+  background-color: #B4141B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  margin-top: 26px;
+  cursor: pointer; }
+
+.for__form-btn a {
+  text-decoration: none;
+  color: white; }
+
+.for__form-btn:hover {
+  opacity: 0.8; }
+/*# sourceMappingURL=for.css.map */

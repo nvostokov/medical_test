@@ -1,0 +1,143 @@
+.benefits {
+  margin-top: 8.4375rem;
+  margin-bottom: 700px;
+  width: 100%; }
+  .benefits__row {
+    position: relative; }
+  .benefits__image {
+    position: absolute;
+    left: -22%;
+    top: 0;
+    max-width: 877px; }
+  .benefits__image img {
+    width: 100%; }
+  .benefits__content {
+    position: absolute;
+    left: 12.5%;
+    top: 3.4375rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: minmax(auto, 474px) minmax(auto, 474px);
+        grid-template-columns: minmax(auto, 474px) minmax(auto, 474px);
+    -webkit-column-gap: 54px;
+            column-gap: 54px; }
+  .benefits__left {
+    z-index: 10;
+    max-width: 474px;
+    min-width: 200px; }
+  .benefits__practice {
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 21px; }
+  .benefits__medical {
+    width: 100%;
+    height: 6rem;
+    background-color: #0E77AF;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 21px;
+    color: white; }
+  .benefits__control {
+    width: 100%;
+    height: 6rem;
+    background-color: #0E77AF;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 21px;
+    color: white; }
+  .benefits__right {
+    z-index: 10;
+    max-width: 474px;
+    min-width: 300px;
+    height: 504px;
+    padding: 20px; }
+  .benefits__title {
+    padding-left: 12px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px; }
+  .benefits__subtitle {
+    padding-left: 12px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #9B9B9B;
+    margin-bottom: 38px; }
+  .benefits__li {
+    list-style-type: disc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 10px; }
+  .benefits__button {
+    width: 104px;
+    height: 35px;
+    background-color: #B4141B;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    margin-top: 26px; }
+  .benefits__right a {
+    text-decoration: none;
+    color: white; }
+  .benefits__button:hover {
+    opacity: 0.8; }
+  .benefits__btn {
+    margin-left: 11px; }
+/*# sourceMappingURL=benefits.css.map */

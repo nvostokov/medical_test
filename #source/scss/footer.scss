@@ -1,0 +1,173 @@
+.footer {
+    background-color: #4A4A4A;
+    height: 553px;
+    position: relative;
+    width: 100%;
+    &__row {
+    }
+    &__up {
+          position: absolute;
+          top: -98px;
+          color: white;
+          display: grid;
+          grid-template-columns: minmax(auto,380px) minmax(auto,410px) minmax(auto,380px);
+      }
+    &__up-col1 {
+          width: 100%;
+          height: 196px;
+          background-color:#5F5F5F;
+    }
+    &__up-title {
+          margin-left: 66px;
+          margin-top: 40px;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin-bottom: 11px;
+    }
+    &__up-address {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+          padding-left: 66px;
+          position: relative;
+    }
+    &__up-address a {
+          text-decoration: none;
+          color: white;
+          transition: all 0.5s ease 0s;
+    }
+    &__up-address::before {
+          content: url(/img/footer/addr.svg);
+          position: absolute;
+          left: 20px;
+          top: 5px;
+    }
+    &__up-col2 {
+          width: 100%;
+          height: 196px;
+          background-color: #6C6C6C;
+    }
+    &__up-phone {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+          padding-left: 66px;
+          position: relative;
+    }
+    &__up-phone::before {
+          content: url(/img/footer/phone.svg);
+          position: absolute;
+          left: 20px;
+          top: 5px;
+    }
+    &__up-col3 {
+          width: 100%;
+          height: 196px;
+          background-color: #7B7B7B;
+    }
+    &__up-mail {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+          padding-left: 66px;
+          position: relative;
+    }
+    &__up-mail::before {
+          content: url(/img/footer/mail.svg);
+          position: absolute;
+          left: 20px;
+          top: 5px;
+    }
+    &__up-mail a {
+          text-decoration: none;
+          color: white;
+          transition: all 0.5s ease 0s;
+    }
+    &__up-mail a:hover, &__up-address a:hover {
+          opacity: 0.5;
+    }
+    &__middle {
+          position: absolute;
+          top: 208px;
+          display: grid;
+          grid-template-columns: minmax(auto,334px) minmax(auto,225px) minmax(auto,200px) ;
+          column-gap: 120px;
+          color: white;
+          padding-right: 15px;
+    }
+    &__middle-col1 {
+    }
+    &__middle-title {
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin-bottom: 45px;
+    }
+    &__middle-txt {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+    }
+    &__middle-col2 {
+    }
+    &__middle-links {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+    }
+    &__middle-links a {
+          text-decoration: none;
+          color: white;
+    }
+    &__middle-list {
+    }
+    &__middle-links a {
+          transition: all 0.5s ease 0s;
+    }
+    &__middle-links a:hover {
+          opacity: 0.5;
+    }
+    &__middle-col3 {
+    }
+    &__middle-social {
+          display: flex;
+          justify-content: space-between;
+    }
+    &__middle-social a {
+          transition: all 0.5s ease 0s;
+    }
+    &__middle-social a:hover {
+          opacity: 0.5;
+    }
+}
+
+.footerdown {
+    height: 108px;
+    width: 100%;
+    background-color: #363636;
+    &__row {
+          padding-top: 42px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: white;
+    }
+}
+

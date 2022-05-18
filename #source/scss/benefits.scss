@@ -1,0 +1,144 @@
+
+.benefits {
+    margin-top: 8.4375rem;
+    margin-bottom: 700px;
+    width: 100%;
+    &__row {
+          position: relative;
+    }
+
+    &__image {
+          position: absolute;
+          left: -22%;
+          top: 0;
+          max-width: 877px;
+    }
+    &__image img {
+          width: 100%;
+}
+    &__content {
+          position: absolute;
+          left: 12.5%;
+          top: 3.4375rem;
+          display: grid;
+          grid-template-columns: minmax(auto,474px) minmax(auto,474px);
+          column-gap: 54px;
+    }
+    &__left {
+          z-index: 10;
+          max-width: 474px;
+          min-width: 200px;
+    }
+    &__practice {
+          width: 100%;
+          height: 6rem;
+          background-color: white;
+          font-size: 1.375rem;
+          font-weight: 700;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+          padding-left: 34px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 21px;
+    }
+    &__medical {
+          width: 100%;
+          height: 6rem;
+          background-color: #0E77AF;
+          font-size: 1.375rem;
+          font-weight: 700;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+          padding-left: 34px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 21px;
+          color: white;
+    }
+    &__control {
+          width: 100%;
+          height: 6rem;
+          background-color: #0E77AF;
+          font-size: 1.375rem;
+          font-weight: 700;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+          padding-left: 34px;
+          display: flex;
+          align-items: center;
+          margin-bottom: 21px;
+          color: white;
+    }
+    &__right {
+          z-index: 10;
+          max-width: 474px;
+          min-width: 300px;
+          height: 504px;
+          padding: 20px;
+    }
+    &__title {
+          padding-left: 12px;
+          font-size: 2rem;
+          font-weight: 700;
+          line-height: 37px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin-bottom: 10px;
+    }
+    &__subtitle {
+          padding-left: 12px;
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #9B9B9B;
+          margin-bottom: 38px;
+    }
+    &__ul {
+    }
+    &__li {
+          list-style-type:disc;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin-left: 10px;
+
+    }
+    &__button {
+          width: 104px;
+          height: 35px;
+          background-color: #B4141B;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 23px;
+          letter-spacing: 0px;
+          text-transform: uppercase;
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          margin-top: 26px;
+}
+    &__right a {
+          text-decoration: none;
+          color: white;
+    }
+    &__button:hover {
+          opacity: 0.8;
+    }
+    &__btn {
+          margin-left: 11px;
+    }
+}
+

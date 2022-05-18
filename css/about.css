@@ -1,0 +1,105 @@
+.about__row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(auto, 767px) minmax(auto, 350px);
+      grid-template-columns: minmax(auto, 767px) minmax(auto, 350px);
+  -webkit-column-gap: 50px;
+          column-gap: 50px; }
+
+.about__about {
+  max-width: 767px; }
+
+.about__title {
+  font-family: 'Asap', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 57px; }
+
+.about__image {
+  margin-bottom: 40px;
+  max-width: 767px; }
+
+.about__image img {
+  width: 100%; }
+
+.about__text {
+  font-family: 'Asap', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 100%; }
+
+.about__text p + * {
+  padding-top: 40px; }
+
+.about__why-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 56px; }
+
+.about__why-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.about__why-card {
+  margin-right: 15px;
+  padding: 45px 20px 0 37px;
+  background-color: #eeeeee;
+  max-width: 350px;
+  min-width: 250px;
+  height: 240px; }
+
+.about__why-title-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 17px; }
+
+.about__subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0E77AF; }
+
+.about__why-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 20px; }
+
+.about__link a:hover {
+  font-weight: 500;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s; }
+
+.about__link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7D7D7D; }
+
+.gray-card {
+  background-color: #ebe9e9; }
+/*# sourceMappingURL=about.css.map */

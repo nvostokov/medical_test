@@ -1,0 +1,103 @@
+.headerup {
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(14, 119, 175, 1);
+    box-shadow: 5px 5px 5px black;
+    &__headerup {
+    }
+    &__row {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 12px;
+    }
+    &__social {
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__social a {
+    }
+    &__social a:hover {
+        opacity: 0.5;
+        transition: all 0.5s;
+    }
+    &__email {
+          font-family: 'Asap', serif;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 14px;
+          letter-spacing: 0px;
+          text-align: right;
+    }
+    &__email:hover {
+        opacity: 0.5;
+        transition: all 0.5s;
+    }
+    &__email a {
+          text-decoration: none;
+          color: white;
+    }
+}
+.header {
+    z-index: 20;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    &__body {
+        display: flex;
+        height: 119px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+    }
+    &__menu {
+        width: 629px;
+    }
+    &__list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        text-decoration: none;
+        color: black;
+        font-family: Asap;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
+    &__link:hover {
+        opacity: 0.8;
+    }
+    &__list li:first-child {
+        font-weight: 700;
+    }
+    &__phone {
+    }
+    &__phone-row {
+          display: flex;
+    }
+    &__phone-img {
+          margin-right: 14px;
+    }
+    &__phone-txt {
+    }
+    &__phone-title {
+    }
+    &__phone-phone {
+    }
+}

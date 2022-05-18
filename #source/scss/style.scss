@@ -1,0 +1,85 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import url(https://fonts.googleapis.com/css?family=Asap:regular,500,600,700,italic,500italic,600italic,700italic);
+@import "header.scss";
+@import "slider.scss";
+@import "about.scss";
+@import "benefits.scss";
+@import "services.scss";
+@import "testimonials.scss";
+@import "for.scss";
+@import "footer.scss";
+
+html {
+      font-size: 16px;
+}
+@media (max-width: 1400px) {
+      html {
+            font-size: 12px;
+      }
+      .about__why-card {
+            padding: 20px 15px 0 20px;
+            background-color: #eeeeee;
+            max-width: 350px;
+            height: 240px;
+}
+      .header__phone-img {
+            display: none;
+      }
+      .for__form-btn {
+            position: relative;;
+      }
+      .testimonials__row {
+            display: grid;
+            grid-template-columns: minmax(auto,230px) minmax(auto,734px);
+            column-gap: 50px;
+      }
+}
+@media (max-width: 1200px) {
+      html {
+            font-size: 10px;
+      }
+      .benefits__right {
+            background-color: white;
+      }
+      .image-slider .swiper-button-prev,
+      .image-slider .swiper-button-next {
+            visibility: hidden;
+      }
+      .slider2 {
+            height: 250px;
+      }
+      .benefits {
+            margin-bottom: 650px;
+      }
+}
+@media (max-width: 1000px) {
+/*       html {
+            font-size: 8px;
+      } */
+      .header__phone {
+            display: none;
+      }
+}
+@media (max-width: 850px) {
+      .header__logo {
+            display: none;
+      }
+
+}
+body {
+      font-family: 'Asap', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+}
+/* обертка */
+.container {
+      max-width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;  
+}
+.main {
+      padding-top: 159px;
+}
+
+
