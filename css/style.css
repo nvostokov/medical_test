@@ -974,7 +974,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s; }
   .footer__up-address::before {
-    content: url(img/footer/addr.svg);
+    content: url(../img/footer/addr.svg);
     position: absolute;
     left: 20px;
     top: 5px; }
